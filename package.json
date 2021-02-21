@@ -1,0 +1,27 @@
+{
+  "name": "tutorial-cggc",
+  "version": "1.0.0",
+  "description": "Site pentru cursul Concepte geometrice in grafica pe calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alecsandu/Tutorial-CGGC.git"
+  },
+  "keywords": [
+    "cggc",
+    "concepte",
+    "grafice",
+    "grafica",
+    "pe",
+    "calculator"
+  ],
+  "author": "Sandu Alexandru-Cristian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alecsandu/Tutorial-CGGC/issues"
+  },
+  "homepage": "https://github.com/Alecsandu/Tutorial-CGGC#readme"
+}
