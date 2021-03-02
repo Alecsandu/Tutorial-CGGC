@@ -47,6 +47,7 @@ body {
 
 #container .column {
   padding-bottom: 1001em;
+  /*padding-bottom: 1001em;*/
   margin-bottom: -1000em;
 }
 
