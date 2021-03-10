@@ -12,22 +12,91 @@
     <div id="container">
       <main id="center" class="column">
         <article>
-          <h1>Header</h1>
-          <p>Laborator1</p>
+          <h1>Introducere in OpenGL</h1>
+          <p>
+            Bine ați venit la cursul de Concepte geometrice in grafica pe
+            calculator.<br />
+            În urmatoarele cursuri vom invata bazele folosirii api-ului OpenGL
+            modern (core profile).
+          </p>
+          <p>
+            Vom incepe de la simpla desenare a unui triunghi, la
+            redarea(rendering) unei scene 3D complexe (cu iluminare, texturare,
+            miscare etc.) .
+            <br />
+          </p>
+
+          <hr />
+          <h2>Cunostinte si tool-uri necesare</h2>
+          <ul>
+            <li>
+              Cunoștințe elementare de programare în C++ (inclusiv utilizarea
+              unui IDE) - vom folosii
+              <a href="https://visualstudio.microsoft.com/" target="blank"
+                >Microsoft Visual Studio Community 2019</a
+              >.
+            </li>
+
+            <li>Elemente de bază de Algebră liniară și Geometrie analitică.</li>
+
+            <li>
+              <a href="https://cmake.org/download/" target="blank">CMake</a>
+              pentru crearea fișierelor necesare complilării librariilor.
+            </li>
+
+            <li>
+              <a
+                href="http://freeglut.sourceforge.net/index.php#download"
+                target="blank"
+                >freeGlut</a
+              >
+              - librarie cu ajutorul careia vom crea si modifica ferestre care
+              conțin un context OpenGL.
+            </li>
+
+            <li>
+              <a href="https://www.glfw.org/">GLFW</a> - librarie alternativă
+              pentru freeGlut (o sa trebuiască să vă alegeți una dintre freeGlut
+              și GLFW).
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/nigels-com/glew/releases/tag/glew-2.2.0"
+                target="blank"
+                >GLEW</a
+              >
+              - OpenGL Extension Wrangler Library.
+            </li>
+
+            <li>
+              GLM(OpenGL Mathematics) -
+              <a href="https://github.com/g-truc/glm" target="blank"
+                >pagina principală</a
+              >
+              de pe Github,
+              <a
+                href="https://github.com/g-truc/glm/releases/tag/0.9.9.8"
+                target="blank"
+                >ultima versiune</a
+              >
+              la momentul scrierii tutorialului.
+            </li>
+          </ul>
+          <hr />
         </article>
       </main>
 
       <%- include('fragments/left_column'); -%>
 
       <div id="right" class="column">
-        <h3>Right heading</h3>
-        <p>Right column</p>
+        <%- include('fragments/right_column'); -%>
       </div>
     </div>
 
     <div id="footer-wrapper">
       <footer id="footer">
-        <p>Copyright 2k21</p>
+        <p>CGGC</p>
       </footer>
     </div>
   </body>
